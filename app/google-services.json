@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "883060249315",
+    "project_id": "job4utrial",
+    "storage_bucket": "job4utrial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883060249315:android:79059164e141316bd56bd6",
+        "android_client_info": {
+          "package_name": "com.example.dhoni.job4utrial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883060249315-opo92gmr1jekkdj133gv7n6u2qa528lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC73AfI0VyZmDfxhisCQ8wHL17-WNjypyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883060249315-opo92gmr1jekkdj133gv7n6u2qa528lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneNumber">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:text="Log Out"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"></Button>
+
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp1"
+        android:layout_width="115dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        ></com.hbb20.CountryCodePicker>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:hint="Enter Phone Number"
+        android:inputType="number"
+        android:id="@+id/phone"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_centerHorizontal="true"
+        android:text="Get OTP"
+        android:id="@+id/otp"
+        ></Button>
+
+
+</RelativeLayout>
